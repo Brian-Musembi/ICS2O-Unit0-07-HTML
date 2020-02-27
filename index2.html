@@ -22,7 +22,18 @@ table, th, td {
     <sup>(AND AMAZING)</sup>
     <i>INCREDIBLE</i>
     <b>WEBPAGE!!!</b>
+    <div style="background-color:yellow">
+    <h1 id="myHeader">PRESS THE BUTTON BELOW FOR A SURPRISE!</h1>
+<button onclick="displayResult()">PRESS ME!</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "SURPRISE!";
+}
+</script>
+    </div>
     <p style="color:maroon;">THE TABLE BELOW SHOWS MY FAMILY MEMBERS AND THEIR AGES</p>
+    <div style="background-color:yellow">
     <table style="width:90%">
   <tr>
     <th>Firstname</th>
@@ -50,6 +61,7 @@ table, th, td {
     <td>38</td>
   </tr>
 </table>
+    </div>
   <img src="./images/image.jpg" alt="image.jpg">
   </body>
 </html>
